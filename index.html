@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hollow Knight</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -17,11 +17,13 @@
             <div class="logo_cherry">
                 <a href="#"><img src="img/tc.webp" alt="logo_cherry"></a>
             </div>
-            <div class="logo_social_media">
-                <a href="#"><img src="#x-formerly-twitter-unauth-icon" alt="X_logo"></a>
-                <a href="#"><img src="" alt="YouTube"></a>
-                <a href="#"><img src="" alt="Facebook"></a>
-            </div>
+            <nav class="social_media_header">
+                <ul class="logo_social_media">
+                    <li><a href="#"><img src="#x-formerly-twitter-unauth-icon" alt="X_logo"></a></li>
+                    <li><a href="#"><img src="" alt="YouTube"></a></li>
+                    <li><a href="#"><img src="" alt="Facebook"></a></li>
+                </ul>
+            </nav>
         </div>
         <div class="logo_Hollow_Knight">
             <img src="img/logo_main.webp" alt="Hollow_Knight_logo">
@@ -69,7 +71,7 @@
 
                 </figure>
             </section>
-            <section class="main_part2">
+            <div class="main_part2">
                 <div class="wrapper">
                     <div class="Steam"><a href="#"><img src="img/store_logos__0004_Layer-8.webp" alt="steam"></a></div>
                     <div class="gogcom"><a href="#"><img src="img/store_logos__0006_Layer-3.webp" alt="gog.com"></a>
@@ -83,7 +85,7 @@
                                 alt="nintendo switch"></a></div>
                     <div class="PS4"><a href="#"><img src="img/store_logos__0005_Layer-2.webp" alt="PS4"></a></div>
                 </div>
-            </section>
+            </div>
             <section class="main_part3">
                 <div class="wrapper">
                     <h2>Hollow Knight Expands with 4 Giant</h2>
@@ -123,20 +125,20 @@
             </section>
             <section class="main_part4">
                 <div class="wrapper">
-                    <iguref class="card1">
+                    <div class="card1">
                         <div class="image_card1"><img src="img/albums.webp" alt="Orchestral"></div>
-                        <figcaption class="caption_card1">
+                        <div class="caption_card1">
                             <h3>A Haunting, Orchestral Score</h3>
                             <p class="p1">Composed and produced by Christopher Larkin, Hollow Knight’s epic score is
                                 woven throughout the game, echoing the sadness of a majestic civilisation brought to
                                 ruin.</p>
-                        </figcaption>
-                        </figure>
-                        <div class="button1_div">
-                            <div class="wrapper">
-                                <a href="#" class="button1">Purchase the Official Soundtrack</a>
-                            </div>
                         </div>
+                    </div>
+                    <div class="button1_div">
+                        <div class="wrapper">
+                            <a href="#" class="button1">Purchase the Official Soundtrack</a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="main_part5">
@@ -163,10 +165,12 @@
             <section class="main_part6">
                 <div class="wrapper">
                     <h2>Press Coverage</h2>
-                    <figure class="reviews">
-                        <div class="image_reviews"><img src="img/awards-2 (1).webp" alt="reviews"></div>
-                        <figcaption class="caption_reviews">
-                            <h3>Praise for Hollow Knight</h3>
+                    <div class="part1">
+                        <figure class="reviews">
+                            <div class="image_reviews"><img src="img/awards-2 (1).webp" alt="reviews"></div>
+                            <figcaption class="caption_reviews">
+                                <h3>Praise for Hollow Knight</h3>
+                            </figcaption>
                             <div class="review1">
                                 <p class="p1">“It's a deep dive into a dark place, and a brilliantly rich experience.”
                                 </p>
@@ -188,21 +192,27 @@
                                     <li>92/100 PC Gamer</li>
                                 </ul>
                             </div>
-                    </figure>
-            </section>
-            <section class="main_part7">
-                <div class="wrapper">
-                    <figure class="only_card">
-                        <div class="image_only_card"><img src="img/pkit.webp" alt="press_kit"></div>
-                        <figcaption class="caption_only_card">
-                            <h3>If you'd like to write about Hollow Knight, we've a Press Kit full of videos, facts and
-                                images.</h3>
-                            <p class="p1">For any additional press enquiries, please contact: press (at)
-                                teamcherry.com.au </p>
-                            <div class="button1_press_kit">
-                                <a href="#" class="button1">Visit the Press Kit</a>
-                    </figure>
-                </div>
+                        </figure>
+
+                    </div>
+                    <div class="part2">
+                        <div class="wrapper">
+                            <div class="only_card">
+                                <div class="image_only_card"><img src="img/pkit.webp" alt="press_kit"></div>
+                                <div class="caption_only_card">
+                                    <h3>If you'd like to write about Hollow Knight, we've a Press Kit full of videos,
+                                        facts
+                                        and
+                                        images.</h3>
+                                    <p class="p1">For any additional press enquiries, please contact: press (at)
+                                        teamcherry.com.au </p>
+                                    <div class="button1_press_kit">
+                                        <a href="#" class="button1">Visit the Press Kit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </section>
             <div class="blood">
                 <div class="wrapper">
@@ -264,10 +274,12 @@
                 </div>
             </div>
             <div class="footer">
-                <nav class="button_social_media2">
-                    <a href="#"><img src="" alt="X_logo"></a>
-                    <a href="#"><img src="" alt="YouTube"></a>
-                    <a href="#"><img src="" alt="Facebook"></a>
+                <nav class="social_media_footer">
+                    <ul class="button_social_media2">
+                        <li><a href="#"><img src="" alt="X_logo"></a></li>
+                        <li><a href="#"><img src="" alt="YouTube"></a></li>
+                        <li><a href="#"><img src="" alt="Facebook"></a></li>
+                    </ul>
                 </nav>
                 <div class="copyright">
                     <p>Hollow Knight is © Copyright 2025 Team Cherry</p>
