@@ -12,9 +12,10 @@ body {
 
 .main_part1_wrapper {
     max-width: 1500px;
-    max-height: 700px;
+    max-height: 800px;
     margin: 0 auto;
     padding: 20px;
+    margin-bottom: 45px;
 }
 
 .main_part1 h1 {
@@ -36,7 +37,16 @@ body {
     align-items: center;
 }
 
-.card1 {
+.main_part1 p {
+    color: #E0E0E0;
+}
+
+.main_part1 li {
+    color: #E0E0E0;
+    margin-bottom: 10px;
+}
+
+.main_part1 .card1 {
     border-radius: 10px;
     margin-top: 30px;
     display: flex;
@@ -45,13 +55,13 @@ body {
     justify-content: flex-start;
 }
 
-.card1 img {
+.main_part1 .card1 img {
     width: 420px;
     height: 240px;
     margin-right: 10px;
 }
 
-.card1 .caption_card1 {
+.main_part1 .card1 .caption_card1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -65,21 +75,22 @@ body {
     font-weight: 600;
 }
 
-.card2 {
+.main_part1 .card2 {
     border-radius: 10px;
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-direction: row-reverse;
 }
 
-.card2 img {
+.main_part1 .card2 img {
     width: 390px;
     height: 220px;
     margin-right: 10px;
 }
 
-.card2 .caption_card2 {
+.main_part1 .card2 .caption_card2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -87,7 +98,7 @@ body {
     font-weight: normal;
 }
 
-.card3 {
+.main_part1 .card3 {
     border-radius: 10px;
     margin-top: 30px;
     display: flex;
@@ -96,13 +107,13 @@ body {
     justify-content: flex-start;
 }
 
-.card3 img {
+.main_part1 .card3 img {
     width: 300px;
     height: 170px;
     margin-right: 10px;
 }
 
-.card3 .caption_card3 {
+.main_part1 .card3 .caption_card3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -110,3 +121,67 @@ body {
     font-weight: normal;
 }
 
+.main_part2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    flex: 0 1 calc(33.333% - 48.24px)
+}
+
+.main_part2 .wrapper {
+    max-width: 1400px;
+    max-height: 2000px;
+    margin: 0 auto;
+    padding: 48.24px;
+}
+
+.main_part3 .wrapper {
+    max-width: 1700px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 48.24px;
+}
+
+.main_part3 h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.main_part3 .card1, .card2, .card3, .card4 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main_part3 .wrapper_cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main_part3 .card1 img, .main_part3 .card2 img, .main_part3 .card3 img, .main_part3 .card4 img {
+    width: 275px;
+    height: 275px;
+    margin-bottom: 10px;
+}
+
+.main_part3 .card1 .caption_card1 p, .main_part3 .card2 .caption_card2 p, .main_part3 .card3 .caption_card3 p, .main_part3 .card4 .caption_card4 p {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.main_part3 .card1 .caption_card1 h3, .main_part3 .card2 .caption_card2 h3, .main_part3 .card3 .caption_card3 h3, .main_part3 .card4 .caption_card4 h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
