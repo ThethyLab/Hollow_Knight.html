@@ -1,4 +1,85 @@
-.main {
+main {
     background-color: black;
     color: white;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.main_part1 h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.main_part1 .card1, .card2, .card3 .caption_card1, .caption_card2, .caption_card3 h2 {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.main_part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1 {
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card1 img {
+    width: 210px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.card1 .caption_card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: normal;
+}
+
+.main_part1 h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.card2 {
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card2 img {
+    width: 210px;
+    height: 120px;
+    margin-right: 10px;
+    align-self: flex-end;
+
+}
+
+.card2 .caption_card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: normal;
+}
+
