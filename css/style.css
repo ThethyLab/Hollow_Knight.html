@@ -155,15 +155,15 @@ html, body {
 
 .main_part3 .wrapper {
     max-width: 1700px;
-    max-height: 800px;
+    max-height: 720px;
     margin: 0 auto;
-    padding: 48.24px;
+    padding: 20px;
 }
 
 .main_part3 h2 {
     font-size: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1px;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     color: white;
@@ -182,19 +182,19 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 5px;
+    gap: 8px;
 }
 
 .main_part3 .card1 img, .main_part3 .card2 img, .main_part3 .card3 img, .main_part3 .card4 img {
-    width: 165px;
-    height: 150px;
-    margin-bottom: 5px;
+    width: 190;
+    height: 172.5px;
+    margin-bottom: 12px;
 }
 
 .main_part3 .card1 .caption_card1 p, .main_part3 .card2 .caption_card2 p, .main_part3 .card3 .caption_card3 p, .main_part3 .card4 .caption_card4 p {
     font-size: 15px;
-    line-height: 1.2;
-}
+    line-height: 1.2'
+}   
 
 .main_part3 h3 {
     font-size: 10px;
@@ -202,6 +202,7 @@ html, body {
     font-weight: 850;
     margin: 5px 5px 5px 5px;
     padding: 0 32px 0 35px;
+    color: #E0E0E0;   
 }
 
 .main_part3 .card1, .main_part3 .card2, .main_part3 .card3, .main_part3 .card4 {
@@ -227,29 +228,37 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-top: 50px;
-    width: 30%;
+    margin-top: 10px;
     justify-content: flex-start;
+    width: 1050px;
 }
 
 .main_part4 .wrapper img {
-    width: 350px;
-    height: 180px;
-    margin-right: 20px;
+    width: 420px;
+    height: 240px;
     justify-self: end;
+    margin-left: 50px;
+}
+
+.main_part4 .par {
+    max-width: 400px;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .main_part4 .wrapper .caption_card1 {
-    max-width: 500px;
+    max-width: 800px;
     color: #E0E0E0;
     display: flex;
     flex-direction: column;
 }
 
 .main_part4 .wrapper .caption_card1 h2 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 0;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .main_part4 .wrapper {
@@ -260,14 +269,40 @@ html, body {
     
 }
 
+.main_part4 .image_card1 {
+    border-radius: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .main_part4 .wrapper .caption_card1 p {
     font-size: 10px;
     line-height: 1.2;
     padding: 10px 0;
 }
 
-.main_part4 .wrapper .card1 {
-    margin-right: 60px;
+.main_part4 .wrapper .caption_card1 button {
+    padding: 30px;
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: #E0E0E0 0px 2px 4px, #E0E0E0 0px 8px 16px;
+    transition: 0.5s;
+}
+
+.main_part4 .wrapper .caption_card1 button:hover {
+    background-color: #757272;
+    box-shadow: #E0E0E0 0px 4px 8px, #E0E0E0 0px 16px 32px;
+}
+
+.main_part4 .wrapper .caption_card1 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .last_part_cherry {
