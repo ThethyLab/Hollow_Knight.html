@@ -248,19 +248,17 @@
  .main_part4 .wrapper {
      display: flex;
      flex-direction: row;
-     align-items: flex-start;
+     align-items: center;
      margin-top: 5px;
-     justify-content: flex-start;
-     width: 1400px;
+     justify-content: center;
+     width: 1800px;
  }
 
- 
-
  .main_part4 img {
-     width: 670px;
+     width: 640px;
      height: 360px;
      justify-self: end;
-     margin-left: 50px;
+     margin-left: 90px;
  }
 
  .main_part4 .par {
@@ -272,16 +270,18 @@
  }
 
  .main_part4 .caption_card1 {
-     max-width: 1000px;
+     max-width: 620px;
      color: #E0E0E0;
      display: flex;
      flex-direction: column;
+     padding: 80px 0 20px 0;
  }
 
  .main_part4 h3 {
      font-size: 2.0em;
      margin: 0;
      font-weight: 500;
+     margin-bottom: 10px;
  }
 
  .main_part4 .wrapper {
@@ -332,13 +332,12 @@
      line-height: 2.2;
  }
 
- .main_part5 .wrapper {
+ .main_part5 .image_card1, .image_card2, .image_card3 {
+     max-width: 620px;
+     color: #E0E0E0;
      display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     padding: 20px;
-     max-width: 1000px;
+     flex-direction: column;
+     padding: 80px 0 20px 0;
  }
 
  .main_part5 button {
@@ -348,6 +347,7 @@
      transition: 0.5s;
      letter-spacing: 1px;
      border: none;
+     margin-top: 15px;
  }
 
  .main_part5 button:hover {
@@ -358,7 +358,7 @@
  .main_part5 button a {
      text-decoration: none;
      color: black;
-     font-size: 10px;
+     font-size: 10.5px;
      font-weight: bold;
  }
 
@@ -369,18 +369,67 @@
      color: #E0E0E0;
  }
 
- .main_part5 p {
+ .main_part5 h3 {
      color: #E0E0E0;
-     font-size: 10px;
+     font-size: 12px;
      line-height: 1.2;
      padding: 10px 0;
  }
 
  .main_part5 img {
-     width: 300px;
-     height: 120px;
-     margin-bottom: 12px;
-     margin-top: 20px;
+     width: 430px;
+     height: 200px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+ }
+
+ .main_part5 .friends {
+     font-size: 35px;
+     text-align: center;
+     margin-top: 0px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     color: white;
+ }
+
+ .main_part5 .figures {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     gap: 10px;
+ }
+
+ .main_part5 button a {
+     text-decoration: none;
+     color: black;
+     font-size: 15px;
+     font-weight: 400;
+ }
+
+ .main_part5 .caption_card1, .caption_card2, .caption_card3 {
+     padding: 10px 0;
+     text-align: center;
+ }
+
+ .main_part5 .wrapper {
+     max-width: 1310px;
+     max-height: 371.781px;
+     margin: 0 auto;
+     padding: 2px;
+ }
+
+ .main_part5 .card1,
+ .card2,
+ .card3 {
+     margin-top: 1px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     flex: 1;
+     min-width: 300px;
+     max-width: 360px;
  }
 
  .last_part_cherry {
