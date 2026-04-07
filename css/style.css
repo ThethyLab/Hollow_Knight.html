@@ -27,7 +27,6 @@
      min-height: 100%;
      display: flex;
      flex-direction: column;
-     justify-content: center;
      max-width: 2000px;
      margin: auto 0;
  }
@@ -165,8 +164,7 @@
  }
 
  .main_part3 .wrapper {
-     max-width: 2600px;
-     max-height: 850px;
+     max-width: 2200px;
      margin: 0 auto;
      padding: 2px;
  }
@@ -181,68 +179,52 @@
  }
 
  .main_part3 .card1,
- .card2,
- .card3,
- .card4 {
+ .main_part3 .card2,
+ .main_part3 .card3,
+ .main_part3 .card4 {
      margin-top: 1px;
      display: flex;
      flex-direction: column;
-     align-items: flex-start;
+     align-items: center;
+     text-align: center;
+     padding: 5px;
+ }
+
+ .main_part3 .wrapper_cards> div {
+     width: 250px;
  }
 
  .main_part3 .wrapper_cards {
      display: flex;
-     flex-wrap: nowrap;
-     justify-content: center;
-     align-items: center;
      flex-direction: row;
-     gap: 20px;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 100px;
+     max-width: 1200px;
+     margin: 0 auto;
  }
 
- .main_part3 .card1 img,
- .main_part3 .card2 img,
- .main_part3 .card3 img,
- .main_part3 .card4 img {
+ .main_part3 img {
      width: 280px;
      height: 260px;
-     margin-bottom: 12px;
-     margin-top: 20px;
+     object-fit: cover;
+     margin-top: 5px;
+     margin-bottom: 15px;
  }
 
  .main_part3 h3 {
-     font-size: 1.2em;
-     margin-bottom: 5px;
-     font-weight: 850;
-     margin: 5px 5px 5px 5px;
-     padding: 0 32px 0 35px;
+     font-size: 18px;
+     font-weight: 700;
+     margin: 10px 0;
+     padding: 0;
      color: #E0E0E0;
  }
 
- .main_part3 .card1,
- .main_part3 .card2,
- .main_part3 .card3,
- .main_part3 .card4 {
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
-
-
- .main_part3 .p1 {
+ .main_part3 p {
      color: #E0E0E0;
-     font-size: 14px;
-     line-height: 1.3;
-     font-weight: 300;
- }
-
- .main_part3 .card1,
- .card2,
- .card3,
- .card4 {
-     max-width: 300px;
-     padding: 20px;
+     font-size: 13.5px;
+     line-height: 1.5;
+     font-weight: 350;
  }
 
  .main_part4 .wrapper {
@@ -251,7 +233,7 @@
      align-items: center;
      margin-top: 5px;
      justify-content: center;
-     width: 1800px;
+     width: 1850px;
  }
 
  .main_part4 img {
@@ -332,16 +314,17 @@
      line-height: 2.2;
  }
 
- .main_part5 .image_card1, .image_card2, .image_card3 {
+ .main_part5 .image_card1,
+ .main_part5 .image_card2,
+ .main_part5 .image_card3 {
      max-width: 620px;
      color: #E0E0E0;
      display: flex;
      flex-direction: column;
-     padding: 80px 0 20px 0;
  }
 
  .main_part5 button {
-     padding: 10px 20px;
+     padding: 17px 27px;
      background-color: #fff;
      box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
      transition: 0.5s;
@@ -363,21 +346,16 @@
  }
 
  .main_part5 h3 {
-     font-size: 12px;
-     margin: 0;
-     font-weight: 400;
-     color: #E0E0E0;
- }
-
- .main_part5 h3 {
      color: #E0E0E0;
      font-size: 12px;
      line-height: 1.2;
+     font-weight: 400;
+     margin: 0;
      padding: 10px 0;
  }
 
  .main_part5 img {
-     width: 430px;
+     width: 400px;
      height: 200px;
      margin-bottom: 0px;
      margin-top: 0px;
@@ -398,17 +376,20 @@
      justify-content: center;
      align-items: center;
      flex-direction: row;
-     gap: 10px;
+     gap: 30px;
  }
+
 
  .main_part5 button a {
      text-decoration: none;
      color: black;
      font-size: 15px;
-     font-weight: 400;
+     font-weight: 550;
  }
 
- .main_part5 .caption_card1, .caption_card2, .caption_card3 {
+ .main_part5 .caption_card1,
+ .main_part5 .caption_card2,
+ .main_part5 .caption_card3 {
      padding: 10px 0;
      text-align: center;
  }
@@ -421,15 +402,15 @@
  }
 
  .main_part5 .card1,
- .card2,
- .card3 {
+ .main_part5 .card2,
+ .main_part5 .card3 {
      margin-top: 1px;
      display: flex;
      flex-direction: column;
-     align-items: flex-start;
+     align-items: center;
+     justify-content: center;
      flex: 1;
-     min-width: 300px;
-     max-width: 360px;
+     width: 30%
  }
 
  .last_part_cherry {
