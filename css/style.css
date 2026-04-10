@@ -31,9 +31,22 @@
      margin: auto 0;
  }
 
+ .main_part1 .grid {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     width: 100%;
+     height: 1200px;
+     justify-content: flex-start;
+     flex-direction: row;
+     align-items: center;
+     margin: 0px 0;
+ }
+
+
  .main_part1_wrapper {
      max-width: 1500px;
-     max-height: 800px;
+     height: 1400px;
      margin: 0 auto;
      padding: 20px;
      margin-bottom: 45px;
@@ -45,13 +58,20 @@
      margin-top: 50px;
      font-family: "Roboto", sans-serif;
      font-weight: normal;
+     color: #E0E0E0;
  }
 
- .main_part1 .card1,
- .card2,
- .card3 .caption_card1,
- .caption_card2,
- .caption_card3 h2 {
+ .main_part1 figure {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     gap: 120px;
+ }
+
+ .main_part1 h2 {
      font-size: 15px;
      line-height: 1.2;
  }
@@ -81,8 +101,8 @@
  }
 
  .main_part1 .card1 img {
-     width: 420px;
-     height: 240px;
+     width: 640px;
+     height: 365px;
      margin-right: 10px;
  }
 
@@ -98,6 +118,7 @@
      font-size: 30px;
      margin: 0;
      font-weight: 600;
+     color: #E0E0E0;
  }
 
  .main_part1 .card2 {
@@ -110,9 +131,9 @@
  }
 
  .main_part1 .card2 img {
-     width: 390px;
-     height: 220px;
      margin-right: 10px;
+     width: 640px;
+     height: 365px;
  }
 
  .main_part1 .card2 .caption_card2 {
@@ -133,10 +154,12 @@
  }
 
  .main_part1 .card3 img {
-     width: 330px;
-     height: 200px;
      margin-right: 10px;
+     width: 640px;
+     height: 365px;
  }
+
+
 
  .main_part1 .card3 .caption_card3 {
      display: flex;
@@ -146,27 +169,30 @@
      font-weight: normal;
  }
 
- .main_part2 {
+ .main_part2 .wrapper {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
-     align-items: center;
-     flex-direction: row;
-     margin-top: 0px;
-     flex: 0 1 calc(33.333% - 48.24px)
  }
 
- .main_part2 .wrapper {
-     max-width: 1500px;
-     max-height: 2150px;
-     margin: 0 auto;
-     padding: 48.24px;
+ .main_part2 .wrapper div {
+     width: 25.33%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px 0;
+ }
+
+ .main_part2 img {
+     max-width: 620px;
+     height: 200px;
  }
 
  .main_part3 .wrapper {
      max-width: 2200px;
      margin: 0 auto;
      padding: 2px;
+     margin-top: 170px;
  }
 
  .main_part3 h2 {
@@ -190,7 +216,7 @@
      padding: 5px;
  }
 
- .main_part3 .wrapper_cards> div {
+ .main_part3 .wrapper_cards>div {
      width: 250px;
  }
 
