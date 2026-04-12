@@ -400,6 +400,34 @@
      width: 30%
  }
 
+ .main_part6 {
+    color: #E0E0E0;
+ }
+
+ .main_part6 h2 {
+        font-size: 35px;
+        text-align: center;
+        margin-top: 1px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+ }
+
+ .main_part6 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 13.56px 54.6px;
+ }
+
+ .reviews {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ }
+
  .last_part_cherry {
      background-color: #e63e4c;
  }
@@ -427,3 +455,4 @@
      list-style: none;
      background-color: #e63e4c;
  }
+
