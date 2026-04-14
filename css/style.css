@@ -1,4 +1,8 @@
- header {
+* {
+    box-sizing: border-box;
+}
+
+header {
      position: relative;
      width: 100%;
      background-color: black;
@@ -23,7 +27,7 @@
      font-family: "Inter", sans-serif;
  }
 
- 
+
  button {
      padding: 10px 20px;
      background-color: #fff;
@@ -401,31 +405,159 @@
  }
 
  .main_part6 {
-    color: #E0E0E0;
+     color: #E0E0E0;
  }
 
- .main_part6 h2 {
-        font-size: 35px;
-        text-align: center;
-        margin-top: 1px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
+ .main_part6 .h3_1 {
+     font-size: 34px;
+     text-align: center;
+     font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     margin: 0 0;
+ }
+
+ .main_part6 .caption_reviews h3 {
+     font-size: 34px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     margin: 0 0;
+ }
+
+ .main_part6 .caption_reviews p {
+     margin-top: 15px;
+     font-size: 14px;
+ }
+
+ .main_part6 .caption_reviews li {
+     font-size: 12.362px;
+ }
+
+ .main_part6 .part1 {
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: center;
+     gap: 80px;
+     padding: 17px;
+     height: 401.51px;
+     width: 100%;
+     min-width: 1274.81px;
+
+ }
+
+ .main_part6 .part1 .text {
+     width: 558.36px;
+     height: 367.52px;
+     color: #E0E0E0;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .main_part6 .caption_reviews {
+     width: 558.36px;
+     height: 301.97px;
+     margin: 0 27.9px;
  }
 
  .main_part6 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 13.56px 54.6px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 13.56px 54.6px;
+     max-width: 1350px;
+     height: 1010px;
+     margin: 0 auto;
+     width: 100%;
+ }
+
+ .main_part6 .part1 img {
+     width: 682.44px;
+     height: 323.33px;
  }
 
  .reviews {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+ }
+
+ .main_part6 .part2 {
+     max-width: 1274.81px;
+     height: 260.5px;
+     padding: 17px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     gap: 100px;
+     width: 100%;
+ }
+
+ .main_part6 .part2 img {
+     width: 558.36px;
+     height: 226.33px;
+ }
+
+ .main_part6 .caption_only_card h3 {
+     font-size: 20.552px;
+     margin: 0 0 14px;
+     font-weight: 350;
+ }
+
+ .main_part6 .caption_only_card p {
+     font-size: 14px;
+     line-height: 1.2;
+ }
+
+ .main_part6 .caption_only_card {
+     width: 558.36px;
+     height: 226.5px;
+     color: #E0E0E0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .main_part6 button {
+     padding: 16.8px 28.056px;
+     background-color: #fff;
+     box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+     transition: 0.5s;
+     letter-spacing: 1px;
+     border: none;
+     margin-top: 15px;
+     width: 192.78px;
+     height: 54.59px
+ }
+
+ .main_part6 button:hover {
+     background-color: rgba(195, 190, 190, 1);
+     box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+ }
+
+ .main_part6 button a {
+     text-decoration: none;
+     color: black;
+     font-size: 12px;
+     font-weight: 650;
+ }
+
+ .main_part6 .image_blood {
+     width: 1274.81px;
+     height: 162.5px;
+     padding: 17px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .main_part6 .image_blood img {
+     width: 266.36px;
+     height: 128px;
  }
 
  .last_part_cherry {
@@ -455,4 +587,3 @@
      list-style: none;
      background-color: #e63e4c;
  }
-
