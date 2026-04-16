@@ -557,33 +557,132 @@ header {
 
  .main_part6 .image_blood img {
      width: 266.36px;
-     height: 128px;
+     height: 162.5px;
  }
 
  .last_part_cherry {
-     background-color: #e63e4c;
+     background-color: #ee3344;
  }
 
  .last_part_cherry .wrapper {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Це вирівнює всі блоки (logo, text, developers) по горизонталі по центру */
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 1200px; /* Замість 1349px */
+    margin: 0 auto;    /* Центрує сам wrapper на сторінці */
+    height: auto; 
+ }
+
+ .last_part_cherry img {
+    width: 450px;
+    height: 361px;
+    margin: 20px;
+ }
+
+ .last_part_cherry .the_developers img {
+    width: 198px;
+    height: 198px;
+ }
+
+ .last_part_cherry .card1_AG, .card2_WP, .card3_DK {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 350px;
+    width: 320px;
+ }
+
+ .last_part_cherry .button_team_cherry_site {
+    padding: 10px 20px;
+     background-color: #fff;
+     box-shadow: #E0E0E0 0px 1px 2px, #E0E0E0 0px 2px 4px;
+     transition: 0.5s;
+     letter-spacing: 1px;
+     border: none;
+     align-self: center;
+ }
+
+ .button_team_cherry_site:hover {
+     background-color: #F9D9DA;
+     box-shadow: rgba(195, 190, 190, 1) 0px 1px 2px, rgba(195, 190, 190, 1) 0px 2px 4px;
+     color: #D8424D;
+ }
+
+ .button_team_cherry_site a {
+        text-decoration: none;
+        color: #ee3344;
+        font-size: 15px;
+ }
+
+.team_cherry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
      justify-content: center;
+     gap: 20px;
+}
+
+ .about_team_cherry p {
+    max-width: 1010px;
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 2.5;
+     color: #E0E0E0;
+     text-align: center;
+     word-spacing: 1px;
+     
+}
+
+ .last_part_cherry .the_developers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ }
+
+ .last_part_cherry p {
+    color: #E0E0E0;
+    font-size: 15px;
+     text-align: center;
+     line-height: 1.2;
+ }
+
+ .last_part_cherry h3 {
+    color: #E0E0E0;
+    font-size: 19px;
+    font-weight:  800;
+    margin: 0;
+    text-align: center;
+ }
+
+ footer {
+    background-color: #ee3344 !important;
+    min-height: 50px;
+}
+
+
+ footer .wrapper .social_media_footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
      padding: 20px;
  }
 
- .footer .wrapper {
-     background-color: #e63e4c;
- }
-
- .footer .wrapper .social_media_footer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 20px;
- }
-
- .footer .wrapper .social_media_footer ul {
+ footer ul {
      list-style: none;
-     background-color: #e63e4c;
+     
  }
+
+ footer .copyright {
+     text-align: center;
+     color: #E0E0E0;
+     font-size: 14px;
+     margin-top: 10px;
+ }
+
+ 
